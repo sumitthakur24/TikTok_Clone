@@ -1,0 +1,40 @@
+.signupWrapper{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.signupCard{
+    width: 27vw;
+    margin-top: 5%;
+    /* border: 2px solid black; */
+}
+.tiktok-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    
+}
+.typo{
+    color: grey;
+    text-align: center;
+}
+.typo2{
+    text-align: center;
+}
+.card2{
+    margin: 10px 0;
+    height: 6vh;
+    
+}
+
+@media only screen and (max-width:620px) {
+    .signupCard{
+        width: 60%;
+    }
+    .tiktok-logo img{
+        width: 35%;
+    }
+}
